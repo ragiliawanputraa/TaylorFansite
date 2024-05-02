@@ -52,15 +52,12 @@
         </aside>
 
         <!-- Ini bagian sebelah kanan -->
-        <!-- class="twitter" cuma nama untuk si section biar bisa di edit2 -->
         <section class="beranda">
             <a class="menux">☰</a>
 
             <div class="container-fluid">
                 <nav class="navbar navbar-light">
                     <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </nav>
             </div>
@@ -106,14 +103,17 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <c:forEach var="tempComment" items="${COMMENT_LIST}">
-                                        <tr>
-                                            <td>${tempComment.nama}</td>
-                                            <td>${tempComment.komentar}</td>
-                                            <td>${tempComment.bintang}</td>
-                                            </td>
-                                        </tr>
-                                    </c:forEach>
+                                    <tr>
+                                        <td>AGIL GANTENG</td>
+                                        <td>PAAN DAH</td>
+                                        <td>5 Stars</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SURIPTO</td>
+                                        <td>PANSIK SOK ASIK</td>
+                                        <td>1 Stars</td>
+                                    </tr>
+                                    <!-- Akhir contoh -->
                                 </tbody>
                             </table>
                         </div>
