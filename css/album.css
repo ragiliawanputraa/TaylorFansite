@@ -90,8 +90,8 @@
     width: 100%;
     padding: 10px 10px;
     background: #FDE6EF;
-    background: linear-gradient(90deg, #FDE6EF 0%, #bf65ff00 100%);
-    color: black;
+    background: linear-gradient(90deg, #944e85 0%, #bf65ff00 100%);
+    color: rgb(210, 203, 203);
     font-family: Arial;
     font-weight: 800;
     letter-spacing: 0.2em;
