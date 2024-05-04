@@ -7,7 +7,7 @@ $(document).ready(function(){
         slidesToShow: 1, // slide yang ditunjukin berapa banyak [1-9999]
         slidesToScroll: 1, // slide yang di geser per detik speed [num]
         autoplay: true, // autoplay [true/false]
-        autoplaySpeed: 2000, // Kecepatan Autoplay [100-9999]
+        autoplaySpeed: 1000, // Kecepatan Autoplay [100-9999]
         arrows: false, // Buat Ngilangin Arrow Nya [true/false]
         dots: true, // ini buat munculin titik navigasi slider [true/false]
     });

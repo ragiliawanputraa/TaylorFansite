@@ -61,8 +61,9 @@
     padding: 10px 10px;
     font-size: 14px;
     font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
     gap: 10px;
-    color: hsla(0, 0%, 50%, 70%);
+    color: hsla(0, 0%, 21%, 0.7);
 }
 
 /* pengaturan si bungkus nya gambar */
@@ -90,9 +91,9 @@
     width: 100%;
     padding: 10px 10px;
     background: #FDE6EF;
-    background: linear-gradient(90deg, #944e85 0%, #bf65ff00 100%);
-    color: rgb(210, 203, 203);
-    font-family: Arial;
+    background: linear-gradient(90deg, #53537d 0%, #bf65ff00 100%);
+    color: rgb(40, 28, 40);
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 800;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -172,7 +173,7 @@ img {
         padding: 5px 8px;
         border-radius: 5px;
         color: #333333;
-        background-color: #FFABD4;
+        background-color: #9999ff;
         font-size: 1rem;
         box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.35);
         z-index: 9999;
