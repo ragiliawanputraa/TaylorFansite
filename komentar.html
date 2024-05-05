@@ -46,8 +46,6 @@
                     <li><a href="./about.html">About Us</a></li>
                     <li class="active"><a href="">Comment</a></li>
                 </ul>
-
-
             </nav>
         </aside>
 
@@ -67,7 +65,7 @@
                         <div class="col-md-3">
                             <h3>
                                 Comment Here!</h3>
-                            <form action="TambahKomentarServlet" method="post">
+                                <form id="commentForm">
                                 <div class="form-group">
                                     <label>Name</label>
                                     <input class="form-control" name="nama" place-holder="Masukan nama kamu" required>
@@ -87,7 +85,7 @@
                                         <option value="Bintang 1">1 Stars</option>
                                     </select>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary" >Submit</button>
                                 <button type="reset" class="btn btn-primary">Reset</button>
                             </form>
                         </div>
@@ -127,6 +125,7 @@
 
     <!-- MAIN SCRIPT -->
     <script src="./javascript/main.js"></script>
+    <script src="./javascript/validasicomment.js"></script>
 
     <!-- INI SCRIPT BUAT SLICK CAROUSSEL NYA BIAR AKTIF -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

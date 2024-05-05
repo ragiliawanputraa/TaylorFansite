@@ -161,3 +161,35 @@ th {
 .mr-sm-2, .mx-sm-2 {
     margin-right: .5rem!important;
 }
+
+/* Aturan responsif untuk navbar */
+@media (max-width: 767px) {
+    .navbar {
+      justify-content: center;
+    }
+  }
+  
+  /* Aturan responsif untuk kolom */
+  @media (max-width: 991px) {
+    .col-md-9,
+    .col-md-3 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 0;
+      margin-bottom: 15px; /* Menambahkan margin antara kolom pada layar kecil */
+    }
+  }
+  
+  /* Aturan responsif untuk label */
+  @media (max-width: 575px) {
+    label {
+      margin-top: 15px; /* Mengurangi margin atas label pada layar sangat kecil */
+    }
+  }
+  /* Aturan responsif untuk background */
+@media (max-width: 767px) {
+    body {
+      background-color: #ccccff; /* Menentukan warna background untuk layar kecil */
+    }
+  }
