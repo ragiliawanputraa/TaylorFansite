@@ -162,13 +162,7 @@ th {
     margin-right: .5rem!important;
 }
 
-/* Aturan responsif untuk navbar */
-@media (max-width: 767px) {
-    .navbar {
-      justify-content: center;
-    }
-  }
-  
+
   /* Aturan responsif untuk kolom */
   @media (max-width: 991px) {
     .col-md-9,

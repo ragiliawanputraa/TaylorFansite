@@ -243,7 +243,6 @@ html {
   left: 50%;
   width: 90%;
   transform: translateX(-50%);
-  /* background-color: tomato; */
   }
 }
 
@@ -304,7 +303,6 @@ html {
     left: 50%;
     width: 90%;
     transform: translateX(-50%);
-    /* background-color: tomato; */
     margin-bottom: 1rem;
   }
 
@@ -331,7 +329,6 @@ html {
     left: 50%;
     width: 90%;
     transform: translateX(-50%);
-    /* background-color: tomato; */
     margin-bottom: 1rem;
   }
 
