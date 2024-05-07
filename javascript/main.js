@@ -17,3 +17,19 @@ $(document).ready(function(){
   document.querySelector('.menux').addEventListener('click', () => document.querySelector('.sidebar').classList.toggle('show'));
 
   function ourFunction() { var x = document.getElementById("myInput"); if (x.type === "password") { x.type = "text"; } else { x.type = "password"; } }
+
+  $(document).ready(function () {
+    $("#infoimage").click(function () {
+      $("#infocontent").slideToggle();
+    })
+  });
+  $(document).ready(function () {
+    $("#infoimage2").click(function () {
+      $("#infocontent2").slideToggle();
+    })
+  });
+  $(document).ready(function () {
+    $("#infoimage3").click(function () {
+      $("#infocontent3").slideToggle();
+    })
+  });

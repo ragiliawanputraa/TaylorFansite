@@ -273,4 +273,7 @@
         width: 300px;
     }
   
+    .biodata{
+      display: none;
+    }
   }
