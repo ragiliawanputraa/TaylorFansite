@@ -1,7 +1,7 @@
 var typed = new Typed('.title', {
   strings: ["HELLO SWIFTIES!!!"],
   typeSpeed: 100,
-  backSpeed: 300,
+  backSpeed: 200,
   loop: false,
   showCursor: false
 });
@@ -9,7 +9,7 @@ var typed = new Typed('.title', {
 var typed2 = new Typed('.subtitle', {
   strings: ["Taylor Swift Fansite"],
   typeSpeed: 100,
-  backSpeed: 300,
+  backSpeed: 200,
   loop: false,
   showCursor: false
 });
