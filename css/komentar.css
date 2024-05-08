@@ -162,13 +162,7 @@ th {
     margin-right: .5rem!important;
 }
 
-/* Aturan responsif untuk navbar */
-@media (max-width: 767px) {
-    .navbar {
-      justify-content: center;
-    }
-  }
-  
+
   /* Aturan responsif untuk kolom */
   @media (max-width: 991px) {
     .col-md-9,
@@ -188,8 +182,22 @@ th {
     }
   }
   /* Aturan responsif untuk background */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     body {
       background-color: #ccccff; /* Menentukan warna background untuk layar kecil */
     }
+    .sidebar {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        transform: translateX(-500px);
+        transition: transform 0.8s ease-in-out;
+        line-height: 3;
+        z-index: 9999;
+        overflow-y: scroll;
+        padding-left: 1rem;
+      }
   }

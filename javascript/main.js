@@ -16,7 +16,7 @@ $(document).ready(function(){
   
   /*elemen .sidebar muncul atau hilang ketika menu diklik*/
   document.querySelector('.menux').addEventListener('click', () => document.querySelector('.sidebar').classList.toggle('show'));
-  /*mengubah tipe input dari sebuah elemen dengan ID "myInput" dari "password" menjadi "text", dan sebaliknya*/ 
+
   function ourFunction() { var x = document.getElementById("myInput"); if (x.type === "password") { x.type = "text"; } else { x.type = "password"; } }
 
   $(document).ready(function () {
