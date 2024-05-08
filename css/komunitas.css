@@ -8,7 +8,6 @@
     padding-bottom: 3rem;
     max-width: 1200px;
     margin: 0 auto;
-    /* background-color: tomato; */
 }
 
 .container4 .catatan {
@@ -61,7 +60,6 @@
     text-align: center;
     margin-block-end: 4rem;
     line-height: 1.1;
-    /* background-color: tomato; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,7 +75,6 @@
     margin-inline: auto;
     margin-top: 1rem;
     font-family: 'Josefin Sans', sans-serif;
-    /* background-color: tomato; */
 }
 
 .kartu__grid img {
