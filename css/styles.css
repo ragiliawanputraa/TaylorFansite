@@ -235,6 +235,7 @@ html {
   display: none;
 }
 
+/* mengubah gaya CSS berdasarkan lebar layar perangkat. */
 @media (max-width:1024px) {
 .kepala_judul {
   z-index: 10;
@@ -265,10 +266,11 @@ html {
     left: 0;
     width: 200px;
     height: 100%;
+    /*memberikan efek animasi pada perubahan tata letak elemen*/
     transform: translateX(-500px);
     transition: transform 0.8s ease-in-out;
     line-height: 3;
-    z-index: 9999;
+    z-index: 9999; /*mengontrol tumpukan tata letak elemen-elemen yang tumpang tindih*/
     overflow-y: scroll;
     padding-left: 1rem;
   }

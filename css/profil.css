@@ -147,6 +147,7 @@
   }
   
   @media (max-width:768px) {
+    /*mengisi lebar 100% dan tidak mengapung.*/
     .beranda {
       width: 100%;
       float: none;
@@ -166,7 +167,7 @@
       width: 200px;
       height: 100%;
       transform: translateX(-500px);
-      transition: transform 0.8s ease-in-out;
+      transition: transform 0.8s ease-in-out; /*ditampilkan atau disembunyikan.*/
       line-height: 3;
       z-index: 9999;
       overflow-y: scroll;
@@ -203,7 +204,6 @@
       left: 50%;
       width: 90%;
       transform: translateX(-50%);
-      /* background-color: tomato; */
       margin-bottom: 1rem;
     }
   
@@ -232,7 +232,6 @@
       left: 50%;
       width: 90%;
       transform: translateX(-50%);
-      /* background-color: tomato; */
       margin-bottom: 1rem;
     }
   
@@ -272,7 +271,7 @@
     .kontentk .illus {
         width: 300px;
     }
-  
+    /*elemen dengan kelas .biodata akan disembunyikan*/
     .biodata{
       display: none;
     }
