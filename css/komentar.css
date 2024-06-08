@@ -168,6 +168,8 @@ th {
     .col-md-9,
     .col-md-3 {
       -ms-flex: 0 0 100%;
+
+      
       flex: 0 0 100%;
       max-width: 100%;
       padding-right: 0;
